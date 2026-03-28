@@ -31,7 +31,6 @@ def get_cipher(master_password):
 
 def verify_master_password(cipher):
     if not os.path.exists(CHECK_FILE):
-        # first time setup master password is "admin123"
         with open(CHECK_FILE, "wb") as f:
             f.write(cipher.encrypt(b"verified"))
         return True
