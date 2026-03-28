@@ -1,5 +1,5 @@
 # Password-Manager
-A simple password manager created using Python.
+A password manager system created using Python.
 Users are able to store, view, search, and delete passwords in this project.
 
 ## Features
@@ -9,3 +9,5 @@ Users are able to store, view, search, and delete passwords in this project.
 - Delete any saved passwords
 - Generate a random password or create your own
 - Password authentication
+
+During the first run, users are prompted for a master password. Any password can be entered. This same master password has to be entered during any future run sessions to log into and access the program.
