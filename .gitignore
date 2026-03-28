@@ -1,0 +1,5 @@
+passwords.txt
+salt.bin
+check.bin
+__pycache__/
+*.pyc
